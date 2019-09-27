@@ -61,13 +61,7 @@ steps:
       eq(variables['System.PullRequest.TargetBranch'], 'master')
     )
  
-<<<<<<< HEAD
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()  
-=======
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: drop'
-  condition: succeeded() 
->>>>>>> scan-open-source
